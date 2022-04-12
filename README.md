@@ -63,3 +63,4 @@ The precision is 9%.
 ![Easy Ensemble](../main/Resources/easy_ensemble.png)
 
 # Summary
+After reviewing all six of the models, Easy Ensemble AdaBoost Classifier model provided the best results with an accuracy rate of 93.1% and a precision of 9% when predicting high risk loans. The recall was 92% which also proved to be the highest among the models. This model is the one that should be used if the only focus is identifying high risk loans. A different model may be used if we were only looking at low risk loans. With the ease of running these models, it might prove useful to utilize multiple models.
