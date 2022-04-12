@@ -20,6 +20,7 @@ Since our dataset is heavily weighted towards the good loans we want to scale th
 The results below show a balanced accuracy score of 62.9%.
 The recall for a high risk loan being 57%
 The precision is 1%.
+
 ![Naive Sampling](../main/Resources/naive_sampling.png)
 
 ## SMOTE Oversampling
@@ -28,6 +29,7 @@ Synthetic minority oversampling technique (SMOTE) is another way to bring parity
 The results below show a balanced accuracy score of 62.9%.
 The recall for a high risk loan being 62%
 The precision is 1%.
+
 ![SMOTE](../main/Resources/smote.png)
 
 ## Undersampling
@@ -36,6 +38,7 @@ Undersampling is the converse of oversampling. In this situation, the majority d
 The results below show a balanced accuracy score of 59.9%.
 The recall for a high risk loan being 61%
 The precision is 1%.
+
 ![Under Sampling](../main/Resources/under_sampling.png)
 
 ## Combination (Over and Under) Sampling 
@@ -44,6 +47,7 @@ Combining both over and under sampling is also referred to SMOTEENN since it com
 The results below show a balanced accuracy score of 64.1%.
 The recall for a high risk loan being 70%
 The precision is 1%.
+
 ![SMOTEEN](../main/Resources/smoteenn.png)
 
 ## Balanced Random Forest Classifier
@@ -52,6 +56,7 @@ Random forest model creates utilized decision trees to help predict the outcome.
 The results below show a balanced accuracy score of 67.8%.
 The recall for a high risk loan being 36%
 The precision is 95%.
+
 ![Random_Forest](../main/Resources/random_forest.png)
 
 ## Easy Ensemble AdaBoost Classifier 
@@ -60,6 +65,7 @@ Adaboost is also referred to Adaptive Boosting. This creates an inital model and
 The results below show a balanced accuracy score of 93.1%.
 The recall for a high risk loan being 92%
 The precision is 9%.
+
 ![Easy Ensemble](../main/Resources/easy_ensemble.png)
 
 # Summary
