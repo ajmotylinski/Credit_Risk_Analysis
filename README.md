@@ -47,7 +47,7 @@ The precision is 1%.
 ![SMOTEEN](../main/Resources/smoteenn.png)
 
 ## Balanced Random Forest Classifier
-
+Random forest model creates utilized decision trees to help predict the outcome. This model creates many small and simple decision trees and then aggregates the results to predict the outcome. 
 ### Results
 The results below show a balanced accuracy score of 67.8%.
 The recall for a high risk loan being 36%
@@ -55,6 +55,7 @@ The precision is 95%.
 ![Random_Forest](../main/Resources/random_forest.png)
 
 ## Easy Ensemble AdaBoost Classifier 
+Adaboost is also referred to Adaptive Boosting. This creates an inital model and then a second model is run giving more weight to the errors from the first model. This is essentially the second model learning from the mistakes of the first model.
 ### Results
 The results below show a balanced accuracy score of 93.1%.
 The recall for a high risk loan being 92%
